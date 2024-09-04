@@ -1,0 +1,14 @@
+### 1. enter data in your script
+
+\`\`\`{r} #\| label: load-libraries #\| output: false\
+library(tidyverse) \# load the tidyverse libraries, including readr
+
+#\| label: enter-data-in-script #\| warning: false \# method 1 - data enter by typing them into your your script
+
+x <-c(1,2,3,4)
+
+y <-c(1,4,3,5)
+
+data1 <-data.frame(x,y)
+
+print(data1)
